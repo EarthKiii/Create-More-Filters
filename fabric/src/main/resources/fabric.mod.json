@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.create_more_filters.fabric.Create_More_FiltersFabric"
+      "net.create_more_filters.fabric.CreateMoreFiltersFabric"
     ]
   },
   "mixins": [
