@@ -1,4 +1,4 @@
-package net.examplemod;
+package net.create_more_filters;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
@@ -10,9 +10,9 @@ public class ExampleExpectPlatform {
      * platform sub-package, with its class suffixed with {@code Impl}.
      * <p>
      * Example:
-     * Expect: net.examplemod.ExampleExpectPlatform#platformName()
-     * Actual Fabric: net.examplemod.fabric.ExampleExpectPlatformImpl#platformName()
-     * Actual Forge: net.examplemod.forge.ExampleExpectPlatformImpl#platformName()
+     * Expect: net.create_more_filters.ExampleExpectPlatform#platformName()
+     * Actual Fabric: net.create_more_filters.fabric.ExampleExpectPlatformImpl#platformName()
+     * Actual Forge: net.create_more_filters.forge.ExampleExpectPlatformImpl#platformName()
      * <p>
      * <a href="https://plugins.jetbrains.com/plugin/16210-architectury">You should also get the IntelliJ plugin to help with @ExpectPlatform.</a>
      */

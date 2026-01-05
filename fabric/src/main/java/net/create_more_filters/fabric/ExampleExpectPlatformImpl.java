@@ -1,4 +1,4 @@
-package net.examplemod.fabric;
+package net.create_more_filters.fabric;
 
 import net.fabricmc.loader.api.FabricLoader;
 

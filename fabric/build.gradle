@@ -34,6 +34,8 @@ repositories {
     maven { url = "https://maven.shedaniel.me" } // Cloth Config, REI
     maven { url = "https://maven.blamejared.com" } // JEI
     maven { url = "https://maven.terraformersmc.com/releases" } // Mod Menu, EMI
+    maven { url = "https://maven.tterrag.com/" } // Flywheel on both, Registrate on fabric
+    maven { url = "https://modmaven.dev/" } // Flywheel on fabric
 }
 
 configurations.configureEach {
