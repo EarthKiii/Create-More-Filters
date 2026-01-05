@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MixinTitleScreen {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
-        Create_More_Filters.LOGGER.info("Hello from {}!", Create_More_Filters.class.getName());
+        CreateMoreFilters.LOGGER.info("Hello from {}!", CreateMoreFilters.class.getName());
     }
 }
