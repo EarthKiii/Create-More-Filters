@@ -12,6 +12,6 @@ public class CreateMoreFiltersForge {
         // registrate must be given the mod event bus on forge before registration
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ExampleBlocks.REGISTRATE.registerEventListeners(eventBus);
-        Create_More_Filters.init();
+        CreateMoreFilters.init();
     }
 }

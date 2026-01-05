@@ -12,7 +12,7 @@ public class CreateMoreFiltersFabric implements ModInitializer {
         CreateMoreFilters.LOGGER.info(EnvExecutor.unsafeRunForDist(
                 () -> () -> "{} is accessing Porting Lib on a Fabric client!",
                 () -> () -> "{} is accessing Porting Lib on a Fabric server!"
-                ), Create_More_Filters.NAME);
+                ), CreateMoreFilters.NAME);
         // on fabric, Registrates must be explicitly finalized and registered.
         ExampleBlocks.REGISTRATE.register();
     }
