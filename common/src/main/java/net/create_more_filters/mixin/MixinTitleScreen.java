@@ -1,6 +1,6 @@
 package net.create_more_filters.mixin;
 
-import net.create_more_filters.Create_More_Filters;
+import net.create_more_filters.CreateMoreFilters;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
