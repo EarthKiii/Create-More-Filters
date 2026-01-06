@@ -12,8 +12,7 @@ public class CreateMoreFilters {
 
 
     public static void init() {
-        LOGGER.info("{} initializing! Create version: {} on platform: {}", NAME, Create.VERSION, ExampleExpectPlatform.platformName());
-        ExampleBlocks.init(); // hold registrate in a separate class to avoid loading early on forge
+        LOGGER.info("{} initializing! Create version: {} on platform: {}", NAME, Create.VERSION, CreateMoreFiltersExpectPlatform.platformName());
     }
 
     public static ResourceLocation id(String path) {
