@@ -11,4 +11,4 @@ include("common")
 include("fabric")
 include("forge")
 
-rootProject.name = "create-more-filters"
+rootProject.name = "Create-More-Filters"

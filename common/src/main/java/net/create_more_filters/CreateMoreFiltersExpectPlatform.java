@@ -2,7 +2,7 @@ package net.create_more_filters;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
-public class ExampleExpectPlatform {
+public class CreateMoreFiltersExpectPlatform {
     /**
      * an example of {@link ExpectPlatform}.
      * <p>
